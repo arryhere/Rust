@@ -35,5 +35,8 @@
   "liveServer.settings.host": "127.0.0.1",
   "liveServer.settings.port": 5501,
   "liveServer.settings.CustomBrowser": "chrome",
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "rust-analyzer.linkedProjects": [
+    ".\\Cargo.toml"
+  ]
 }
