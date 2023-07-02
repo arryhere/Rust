@@ -37,6 +37,6 @@
   "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "rust-analyzer.linkedProjects": [
-    ".\\Cargo.toml"
+    ".\\Cargo.toml",
   ]
 }
