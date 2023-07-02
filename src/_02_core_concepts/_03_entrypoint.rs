@@ -1,4 +1,4 @@
-fn main() {
+pub fn entrypoint() {
     is_x();
 }
 

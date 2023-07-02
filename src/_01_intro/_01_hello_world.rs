@@ -1,3 +1,3 @@
-pub fn _01_intro() {
+pub fn intro() {
     println!("Hello, world!");
 }

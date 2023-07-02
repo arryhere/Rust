@@ -1,4 +1,4 @@
-fn main() {
+pub fn shadowing() {
     let x: i32 = 5;
 
     {
@@ -8,7 +8,7 @@ fn main() {
 
     println!("x: {x}"); // x: 5
 
-    let x = 555;
+    let x: i32 = 555;
     println!("x: {x}"); // x: 555
 
     shadow();

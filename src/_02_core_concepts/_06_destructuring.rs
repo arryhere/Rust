@@ -1,4 +1,4 @@
-fn main() {
+pub fn destructuring() {
     let (mut x, mut y) = (5, 55); // tuple
 
     x += 5;

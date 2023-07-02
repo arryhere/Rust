@@ -1,4 +1,4 @@
-fn main() {
+pub fn scope() {
     let x: i32 = 5;
 
     {
