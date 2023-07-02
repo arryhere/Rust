@@ -26,7 +26,7 @@ mod _02_core_concepts {
 mod _03_variables_datatypes {
     pub mod _01_numbers;
 }
-use crate::_03_variables_datatypes::_01_numbers;
+// use crate::_03_variables_datatypes::_01_numbers;
 
 fn main() {
     println!("Hello, Rust!");
@@ -41,5 +41,7 @@ fn main() {
     // _05_compiler_warnings::compiler_warnings();
     // _06_destructuring::destructuring();
 
-    _01_numbers::integers();
+    // _01_numbers::integers();
+    // _01_numbers::float();
+    // _01_numbers::range();
 }
