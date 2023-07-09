@@ -36,12 +36,17 @@ mod _06_functions {
     pub mod _01_functions;
 }
 
+mod _07_ownership {
+    pub mod _01_ownership;
+}
+
 // use crate::_01_intro::_01_hello_world;
 // use crate::_02_core_concepts::{_01_binding_mutability, _02_scope, _03_entrypoint, _04_shadowing, _05_compiler_warnings, _06_destructuring};
 // use crate::_03_variables_datatypes::{_01_numbers, _02_char, _03_boolean, _4_unit};
 // use crate::_04_loops::_01_loops;
 // use crate::_05_statements_expressions::_01_statements_expressions;
 // use crate::_06_functions::_01_functions;
+use crate::_07_ownership::_01_ownership;
 
 fn main() {
     println!("Hello, Rust!");
@@ -69,4 +74,6 @@ fn main() {
     // _01_statements_expressions::statemets_expressions();
 
     // _01_functions::function();
+
+    _01_ownership::ownership();
 }
