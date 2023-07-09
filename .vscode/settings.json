@@ -1,5 +1,6 @@
 {
   "editor.tabSize": 2,
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "trailing",
   "editor.rulers": [
     140
@@ -11,6 +12,7 @@
   "editor.formatOnSave": true,
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.scrollback": 100000000,
   "[json]": {
     "editor.defaultFormatter": "rome.rome"
